@@ -9,10 +9,10 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 30vh;
-  background-color: #ececbbd9;
+  background-color: #153b5dd9;
 }
 #calculadora {
-    background-color: #130831d9;
+    background-color: #210d58d9;
     display: flex;
      
      
@@ -35,6 +35,11 @@ body{
     
 }
 #pantalla{
+    display: flex;       /* Usar flexbox para alinear el contenido */
+    justify-content: flex-end; /* Alinear horizontalmente a la derecha */
+    align-items: flex-end;
+    text-align: right;  /* Alinear el texto a la derecha */
+    
     background-color: black;
     color: white;
     
